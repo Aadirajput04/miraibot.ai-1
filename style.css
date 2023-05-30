@@ -287,6 +287,11 @@ marquee span{
          border-radius: 60px;
      }
 
+     .col-sm-4 .card .card-body a.btn:hover{
+        background-color: white;
+        border-color: #ffdc60;
+     }
+
      /* --------------------pricing part2------------- */
      .Pricing .row2  {
       display: flex;
@@ -328,6 +333,12 @@ marquee span{
          padding: 10px 50px;
          border-radius: 30px;
          margin-top: 70px;
+     }
+
+     .Pricing .row2 .part-B a:hover{
+        background-color: white;
+        border-color: #ffdc60;
+
      }
      .Pricing .row2 .part-C  img{
       padding: 20px;
@@ -476,4 +487,4 @@ marquee span{
       .container-fluid  .part-A .right-part{
       margin-top: 60px;
       }
-       /* ------------------------footer end------------------------- */
+       /* ------------------------footer end------------------------- */    
