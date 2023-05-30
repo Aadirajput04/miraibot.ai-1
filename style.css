@@ -1,0 +1,479 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* ---------------------------------------navbar css starts here------------------------------------------- */
+header .nav {
+    height: 75px;
+
+    border-bottom: 1px solid rgb(123, 195, 195);
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    */
+
+    justify-content: space-between;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: white;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+header .nav .manu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 30px;
+
+
+}
+
+header .nav button {
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .nav button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header li a:hover {
+    color: gray;
+}
+
+
+/* ------------------------------------------------------features css tsrts here------------------------------- */
+/* 
+.Features{
+    display: flex;
+} */
+
+.Features .headings {
+    display: grid;
+    place-items: center;
+    column-gap: 20px;
+    background-color: rgba(240, 242, 242, 0.942) ;
+
+}
+
+.Features .heading1 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: x-large;
+}
+
+.Features .heading {
+    color: gray;
+    font-weight: lighter;
+}
+
+.container1 .col {
+    display: flex;
+    padding-left: 12px;
+
+
+
+    text-align: center;
+
+
+}
+
+.container1 .col p {
+    color: gray;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.container1 .col h4 {
+    font-size: 18px;
+}
+
+.container1 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    /* justify-content: space-between; */
+    padding: 80px;
+    background-color: #D5F3F1;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.container1 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+
+
+/* * ----------------------home section -start------------------ */
+
+ 
+section.Home {
+
+    display: flex;
+ padding-left: 1rem;
+ padding-top: 2.5rem;
+ padding-bottom: 2.5rem;
+ padding-right: 1rem;
+
+
+ 
+ /* justify-content: space-between; */
+  /* height: 100vh; */
+  background-color: rgba(232, 232, 232, 0.942);
+
+  /* margin-left: 10px; */
+}
+
+/* -----------------part one------------------- */
+section.Home .part-one h1 {
+  font-size: 70px;
+
+}
+
+section.Home .part-one p {
+  display: inline-block;
+}
+
+section.Home .part-one .arrow {
+  background: rgb(27, 195, 27);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+section.Home .part-one button {
+  display: block;
+  border-radius: 10px;
+
+}
+
+section.Home .part-one{
+  padding-top: 8%;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+/* ----------------part-2------------------ */
+section .part-2{ flex-basis: 50%;
+  display:flex;
+  justify-content: center;
+}
+
+
+section .part-2 .chatbox{
+ 
+  height: 500px;
+  width: 400px;
+  background: white;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+section .part-2 .reply{
+  background: #000;
+  color: white;
+  border-radius: 0px 15px 15px 15px;
+ padding: 10px;
+ margin: 10px;
+ width: 80%;
+}
+
+section .part-2 .reply h5{
+font-size: 16px;
+font-weight: 400;
+
+}
+marquee span{
+  margin-left: 10rem;
+}
+
+
+
+/* /* ----------------home section-end-------------
+
+
+ /* ----------------home section-end------------- */
+
+
+ /* -----------------------------pricing section start---------------------------- */
+ section.Pricing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+    padding: 90px 140px;
+    background-color:rgba(240, 242, 242, 0.942);
+     }
+     .Pricing p {
+      font-size: 10px;
+         margin:10px auto;
+         align-items: center;
+     }
+     .Pricing h2{
+
+         text-align: center;
+         margin-bottom:20px ;
+ 
+     }
+     .card{
+      align-items: center;
+      border-radius: 1.25rem;
+     }
+
+     .col-sm-4 .card .card-body{
+         text-align: center;
+         width: 25rem;
+         padding: 20px 0;
+         margin: 0 auto;
+     }
+     .col-sm-4 .card .card-body h5.card-title{
+         padding: 10px 0;
+ 
+     }
+     .col-sm-4 .card .card-body .card-text  {
+         border: 2px solid black;
+         width: 18rem;
+         font-size: 14px;
+         border-radius: 10px;
+         margin: 0 auto;
+     }
+     .col-sm-4 .card .card-body .card-text p{
+      display: inline-block;
+     }
+     .col-sm-4 .card .card-body .card-text .price{
+      font-size: 30px;
+      font-weight: bold;
+      border-right: 2px solid grey;
+      padding-right: 20px;
+      margin-right: 20px;
+     }
+     
+     .col-sm-4 .card .card-body a.btn{
+         background-color: #ffdc60;
+         padding: 10px 90px;
+         border-radius: 60px;
+     }
+
+     /* --------------------pricing part2------------- */
+     .Pricing .row2  {
+      display: flex;
+      justify-content: space-between;
+      width: 1230px;
+      background: black;
+      height: 12rem;
+      border: 2px solid black;
+      border-radius: 20px;
+      margin: 30px auto;
+     }
+     .Pricing .row2 .part-A{
+      padding: 30px 0 0 30px;
+     }
+     .Pricing .row2 .part-A h4{
+      color: #ffdc60;
+      font-weight: 600;
+     }
+
+     .Pricing .row2 .part-A .offer{
+      display: flex;
+      width: 20rem;
+      justify-content: center;
+      border:2px solid white;
+      border-radius: 10px;
+      color: #ffdc60;
+     }
+     .Pricing .row2 .part-A  p.bold {
+      font-size: 30px;
+      font-weight: bold;
+     }
+     .Pricing .row2 .part-A .offer p:not(.bold) {
+      border-left: 2px solid white;
+      padding-left: 20px;
+     }
+
+     .Pricing .row2 .part-B a{
+        background-color: #ffdc60;
+         padding: 10px 50px;
+         border-radius: 30px;
+         margin-top: 70px;
+     }
+     .Pricing .row2 .part-C  img{
+      padding: 20px;
+      
+     }
+
+
+
+  /* -----------------------------pricing section end--------------------- */
+
+
+
+  /* --------------------------------------faq section starts here --------------------------------------- */
+
+
+
+  
+.facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+
+.facts .faq {
+    max-width: 900px;
+
+
+
+}
+
+.facts .contentbox {
+    position: relative;
+    margin: 30px 20px;
+}
+
+.facts .question {
+    padding: 10px;
+    background-color: #e4e4e4;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    border-top: 1px solid rgb(165, 165, 165);
+    border-left: 1px solid rgb(165, 165, 165);
+    border-right: 1px solid rgb(165, 165, 165);
+
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+
+.facts .question::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 2em;
+
+}
+
+.facts .answers {
+    position: relative;
+    background-color: #e4e4e4;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    color: #686c71;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Modernera, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.facts .contentbox.active .answers {
+    height: 90px;
+    padding: 10px;
+
+}
+
+.facts .contentbox.active .question::before {
+    content: '-';
+    font-size: 2.5em;
+    color: black;
+}
+
+.faqs{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.faqs .second h2{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------footer start-------------------------
+       */
+       .container-fluid{
+        background: black;
+        margin: 10px auto;
+        padding: 10px;
+        height: 35vh;
+        color: white;
+        justify-content: space-between;
+       }
+
+      .container-fluid .part-A{
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .container-fluid .part-A img{
+        padding: 20px;
+      }
+      .container-fluid .part-B {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border-top: 2px solid white;
+        padding-top: 30px;
+        
+      }
+      
+
+      .container-fluid  .part-A .right-part{
+      margin-top: 60px;
+      }
+       /* ------------------------footer end------------------------- */
